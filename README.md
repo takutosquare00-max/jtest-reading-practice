@@ -1,14 +1,13 @@
-# J.TEST F級・G級 リーディング速度向上練習教材
+# J.TEST リーディング練習教材
 
-J.TEST F級・G級向けのリーディング速度向上練習用のWeb教材です。
+J.TEST 全レベル（A-C級、D-E級、F-G級）向けのリーディング練習用Web教材です。
 
-## レッスン一覧
+## レベル構成
 
-- [第1回](JTEST-FG-reading-practice-lesson1.html)
-- [第2回](JTEST-FG-reading-practice-lesson2.html)
-- [第3回](JTEST-FG-reading-practice-lesson3.html)
-- [第4回](JTEST-FG-reading-practice-lesson4.html)
+- **A-C級** - 準備中
+- **D-E級** - 準備中
+- **F-G級** - リーディング速度向上練習（第1回〜第4回）
 
 ## 使い方
 
-[トップページ](index.html)から各レッスンにアクセスできます。
+[トップページ](index.html)からレベルを選び、各教材にアクセスできます。

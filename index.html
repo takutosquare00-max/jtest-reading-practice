@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J.TEST F級・G級 リーディング速度向上練習教材</title>
+    <title>J.TEST リーディング練習教材</title>
     <style>
         body {
             font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", "MS PGothic", sans-serif;
@@ -25,37 +25,86 @@
             padding-bottom: 10px;
             margin-bottom: 30px;
         }
+        .level-section {
+            margin: 30px 0;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+        }
+        .level-section h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .level-section.preparing {
+            border-left-color: #95a5a6;
+            opacity: 0.85;
+        }
+        .level-section.preparing h2 {
+            color: #7f8c8d;
+        }
         .lesson-list {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         .lesson-list li {
-            margin: 15px 0;
-            padding: 20px;
-            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            background-color: white;
             border-radius: 5px;
             border-left: 4px solid #3498db;
         }
         .lesson-list a {
             color: #2c3e50;
             text-decoration: none;
-            font-size: 1.1em;
+            font-size: 1.05em;
         }
         .lesson-list a:hover {
+            color: #3498db;
+        }
+        .preparing-msg {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .level-section h2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .level-section h2 a:hover {
             color: #3498db;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>J.TEST F級・G級 リーディング速度向上練習教材</h1>
-        <p>各レッスンをクリックして練習を開始してください。</p>
-        <ul class="lesson-list">
-            <li><a href="JTEST-FG-reading-practice-lesson1.html">第1回（1時間）</a></li>
-            <li><a href="JTEST-FG-reading-practice-lesson2.html">第2回（1時間）</a></li>
-            <li><a href="JTEST-FG-reading-practice-lesson3.html">第3回（1時間）</a></li>
-            <li><a href="JTEST-FG-reading-practice-lesson4.html">第4回（1時間）</a></li>
-        </ul>
+        <h1>J.TEST リーディング練習教材</h1>
+        <p>レベルを選んで、教材にアクセスしてください。</p>
+
+        <!-- A-C級 -->
+        <section class="level-section preparing">
+            <h2><a href="ac/">A-C級</a></h2>
+            <p class="preparing-msg">準備中です。</p>
+        </section>
+
+        <!-- D-E級 -->
+        <section class="level-section preparing">
+            <h2><a href="de/">D-E級</a></h2>
+            <p class="preparing-msg">準備中です。</p>
+        </section>
+
+        <!-- F-G級 -->
+        <section class="level-section">
+            <h2>F-G級</h2>
+            <p>リーディング速度向上練習教材</p>
+            <ul class="lesson-list">
+                <li><a href="fg/JTEST-FG-reading-practice-lesson1.html">第1回（1時間）</a></li>
+                <li><a href="fg/JTEST-FG-reading-practice-lesson2.html">第2回（1時間）</a></li>
+                <li><a href="fg/JTEST-FG-reading-practice-lesson3.html">第3回（1時間）</a></li>
+                <li><a href="fg/JTEST-FG-reading-practice-lesson4.html">第4回（1時間）</a></li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
